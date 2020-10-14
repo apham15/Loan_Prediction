@@ -6,6 +6,16 @@ I use the loan.csv file that contains real-world, historical data on loans organ
 
 ![Screen Shot 2020-10-13 at 11 01 14 PM](https://user-images.githubusercontent.com/63126292/95942130-01280980-0da8-11eb-88a8-cfa750120469.png)
 
+1. Business Understanding
+
+You work for a consumer finance company which specialises in lending various types of loans to urban customers. When the company receives a loan application, the company has to make a decision for loan approval based on the applicant’s profile. Two types of risks are associated with the bank’s decision:
+
+If the applicant is likely to repay the loan, then not approving the loan results in a loss of business to the company
+
+If the applicant is not likely to repay the loan, i.e. he/she is likely to default, then approving the loan may lead to a financial loss for the company
+
+The dataset given contains the information about past loan applicants and whether they ‘defaulted’ or not. The aim is to identify patterns which indicate if a person is likely to default, which may be used for taking actions such as denying the loan, reducing the amount of loan, lending (to risky applicants) at a higher interest rate, etc.
+
 1. In this project, I did perform all the basic but necessary steps that make the audience to understand EDA process. Then, I apply Supervised Learning Models to predict the loan status with all the features.
 
 * Import libraries and dataset
