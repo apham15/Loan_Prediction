@@ -19,3 +19,6 @@ During this analyze I'll use the loan.csv file that contains real-world, histori
 
 2. Link of the dataset 
 https://media.githubusercontent.com/media/apham15/large_csv/main/loan.csv'
+
+3. My work
+https://github.com/apham15/Loan_Prediction/blob/main/Supervised%20Learning%20Project%20%20-%20final%20version.ipynb
