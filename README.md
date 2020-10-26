@@ -33,17 +33,31 @@ Loan rejected: The company had rejected the loan (because the candidate does not
 
 3. In this project, I did perform all the basic but necessary steps that make the audience to understand EDA process. Then, I apply Supervised Learning Models to predict the loan status with all the features.
 
+a. Understand the data:
+
 * Import libraries and dataset
 * Understand the data
 * Apply descriptive analysis and visualization to give some insigh of the raw data
-* Determine the features and the target (Loan Status)
+
+b. EDA:
+
+* Determine the features and the target (Loan Status) by grouping categorical and numerical features
+* Eliminate the unuseful categorical features
+* Adjust data format
 * Clean the data 
+* Apply SimpleImputer, MaxAbsScaler, and LabelEncoder to fill in NaN values
+* Transform data by using RobustScaler, StandardScaler, and OneHotEncoder
 * Apply feature engineering (PCA)
-* Use Logistic Regression, Decision Tree, and Random Forest Models to determine the preditction
-* Conclude the best model that fit the dataset is Randome Forest with 96% accuracy
+* Utilize hstackto make the final train and test dataset to combine PCA, Discreate columns, and Spare columns
+
+4. Machine Learning Algorithms
+* Utilize Logistic Regression, K-Nearest Neighbor Classifier, Decision Tree Classifier, Random Forest Classifier, Naive Bayes Classifier, Support Vector Classifier, Gradient Boosting Classifier to determine the preditction
+* The best performance models are Gradient Boosting Classifier (87.57% accuracy) and Random Forest Classifier (87.29% accuracy)
+* Apply GridSearchCV for tunning and find out the best GBM parameter is {'max_depth': 15, 'max_features': 'auto', 'n_estimators': 15} and the best Random Forest parameter is {'max_depth': 38, 'max_features': 'sqrt', 'n_estimators': 50}
+* The optimized model achieved an ROCs are 99.5% (GBM) and 100% (Random Forest)
 
 4. Link of the dataset 
 https://media.githubusercontent.com/media/apham15/large_csv/main/loan.csv'
 
 5. My work
-https://github.com/apham15/Loan_Prediction/blob/main/Supervised%20Learning%20Project%20%20-%20final%20version.ipynb
+
