@@ -55,7 +55,8 @@ b. EDA:
 * The best performance models are Gradient Boosting Classifier (87.57% accuracy) and Random Forest Classifier (87.29% accuracy)
 * Apply GridSearchCV for tunning and find out the best GBM parameter is {'max_depth': 15, 'max_features': 'auto', 'n_estimators': 15} and the best Random Forest parameter is {'max_depth': 38, 'max_features': 'sqrt', 'n_estimators': 50}
 * The optimized model achieved an ROCs are 99.5% (GBM) and 100% (Random Forest)
-https://github.com/apham15/Loan_Prediction/issues/3#issue-729932369
+![download (21)](https://user-images.githubusercontent.com/63126292/97232670-93b6a880-17ab-11eb-8888-c68c20ca49f9.png)
+
 
 5. Link of the dataset 
 https://media.githubusercontent.com/media/apham15/large_csv/main/loan.csv'
