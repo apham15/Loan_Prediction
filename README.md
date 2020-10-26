@@ -56,7 +56,7 @@ b. EDA:
 * Apply GridSearchCV for tunning and find out the best GBM parameter is {'max_depth': 15, 'max_features': 'auto', 'n_estimators': 15} and the best Random Forest parameter is {'max_depth': 38, 'max_features': 'sqrt', 'n_estimators': 50}
 * The optimized model achieved an ROCs are 99.5% (GBM) and 100% (Random Forest)
 ![download (21)](https://user-images.githubusercontent.com/63126292/97232670-93b6a880-17ab-11eb-8888-c68c20ca49f9.png)
-
+![download (22)](https://user-images.githubusercontent.com/63126292/97232723-b21ca400-17ab-11eb-88d3-a48bdcc8db28.png)
 
 5. Link of the dataset 
 https://media.githubusercontent.com/media/apham15/large_csv/main/loan.csv'
