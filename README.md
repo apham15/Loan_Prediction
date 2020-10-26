@@ -41,7 +41,8 @@ a. Understand the data:
 
 b. EDA:
 
-* Determine the features and the target (Loan Status) by grouping categorical and numerical features
+* The target (Loan Status) is divided by Good Loan and Bad Loan
+* Determine the features by grouping categorical and numerical features
 * Eliminate the unuseful categorical features
 * Adjust data format
 * Clean the data 
