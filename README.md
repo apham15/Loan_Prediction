@@ -53,9 +53,13 @@ b. EDA:
 
 c. Machine Learning Algorithms
 * Utilize Logistic Regression, K-Nearest Neighbor Classifier, Decision Tree Classifier, Random Forest Classifier, Naive Bayes Classifier, Support Vector Classifier, Gradient Boosting Classifier to determine the preditction
+
+d. Result
 * The best performance models are Gradient Boosting Classifier (87.57% accuracy) and Random Forest Classifier (87.29% accuracy)
 * Apply GridSearchCV for tunning and find out the best GBM parameter is {'max_depth': 15, 'max_features': 'auto', 'n_estimators': 15} and the best Random Forest parameter is {'max_depth': 38, 'max_features': 'sqrt', 'n_estimators': 50}
 * The optimized model achieved an ROCs are 99.99% (GBM) and 99.03% (Random Forest)
+![download (1)](https://user-images.githubusercontent.com/63126292/97929804-97a87480-1d2f-11eb-8692-e167f0c4e26e.png)
+
 
 
 4. Link of the dataset 
